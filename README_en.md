@@ -4,7 +4,7 @@ One more robot project for workshops for people willing to learn about programmi
 
 ![Building blocks](./images/robot.jpg "Robot")
 
-This repository aims to be a step by step guide for a workshop in which participants built a robot that draws what they tell it to. Originally this workshop meant for kids 11 through 15, but anyone is welcome to enjoy some tinkering and an introduction to programming.
+This repository aims to be a step by step guide for a workshop in which participants build a robot that draws what they tell it to. Originally this workshop meant for kids 11 through 15, but anyone is welcome to enjoy some tinkering and an introduction to programming.
 
 We felt like commercial solutions, although of high quality, were not accessible for everyone (due to their price tag). Besides the lower cost, the upside of this project is the additional "sense of pride and accomplishment" that a participant will experience after seeing how something they built themselves comes to life.
 
@@ -55,7 +55,7 @@ Total cost per robot is about 20€.
 
 This process takes about an hour. **Please read all the steps before starting!**
 
-1. Place breadboard template on breadboard aligning the end opposite to the arduino board to the edge of the breadboard.
+1. Place breadboard template on breadboard, aligning the end opposite to the arduino board to the edge of the breadboard.
 2. Insert arduino board carefully following template. Ensure that D-Pins (five through seven) align with the print on the template. Set breadboard aside.
 
 ![Rear support](./images/nano-and-template.jpg "Nano and template")
