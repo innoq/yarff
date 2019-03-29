@@ -73,7 +73,11 @@ Depending on the size of the group, participants may assemble their respective r
 
 # Assembly
 
-This process takes about an hour. **Please read all the steps before starting!**
+This process takes about an hour. Some preparation in advance can help reduce overhead (e.g. looking for the right cable). It is at the discretion of the mentor(s) how much to get done in advance.
+
+(You will notice that the assembly relies heavily on color codes. Contributions for a colorbind-friendly version are very welcome)
+
+**Please read all the steps before starting!**
 
 1. Place breadboard template on breadboard, aligning the end opposite to the arduino board to the edge of the breadboard.
 2. Insert arduino board carefully following template. Ensure that D-Pins (five through seven) align with the print on the template. Set breadboard aside.
