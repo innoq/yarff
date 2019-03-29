@@ -1,6 +1,6 @@
 # YARFF (Yet Another Robot For Fun)
 
-One more robot project for workshops for people willing to learn about programming (and a little bit about arduino).
+One more robot project for workshops aimed at people willing to learn about programming (and a little bit about arduino).
 
 ![Building blocks](./images/robot.jpg "Robot")
 
