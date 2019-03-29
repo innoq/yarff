@@ -186,12 +186,26 @@ After this exercise you can move to working at the computer.
 
 ## Using Snap4Arduino to program the virtual robot
 
+Download and install [snap4arduino](http://snap4arduino.rocks/).
+
 _TODO_
 
 - Base project and building blocks
 - Notes for mentors
 
 ## Connecting Snap4Arduino to the real robot
+
+First we need to ensure that the arduino chip is prepared to receive commands from snap4arduino. **We will only need to run this once**.
+
+To achieve this, we will download, install and open the [arduino IDE](https://www.arduino.cc/en/Main/Software#download).
+
+1. connect the robot to the computer with the USB cable
+2. ensure that `Arduino nano` is selected under `Tools > Board`
+3. depending on the board bought, `Tools > Board` will have to have the value `ATmega328P` or `ATmega328P (Old Bootloader)`. If you have problems when uploading the firmware try changing this value
+4. Under `Tools > Port` select the one that says `/dev/ttyXXXXX` (under MacOs or Linux) or try your luck with different `COMX` ports under Windows
+5. Select `File > Examples > Firmata > StandardFirmata`. This will open a new Window
+6. Press the upload button (the right facing arrow on the toolbar)
+7. Once the window says `Upload complete` you can close the Arduino IDE
 
 _TODO_
 
