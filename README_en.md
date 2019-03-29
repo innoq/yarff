@@ -93,7 +93,11 @@ This process takes about an hour. Some preparation in advance can help reduce ov
 ![Nano and template](./images/nano-and-template.jpg "Nano and template")
 
 3. Insert screws through stepper motor. Ensure that head of screw is on the same side as the axis for the wheel.
-4. Depending on the kind of supporting board that you are using, assemble wheel with motor and then insert the motor with the wheel into the supporting board **or** insert/screw motor into supporting board and then attack motor to rubber wheel. The screws should be aligned with the markings shown in `support plate.svg` and the cables should be facing upward.
+
+![Motor and wheel](./images/motor-wheel.jpg "Motor and wheel")
+
+4. Depending on the kind of supporting board that you are using, assemble wheel with motor and then insert the motor with the wheel into the supporting board **or** insert/screw motor into supporting board and then attach motor to rubber wheel. The screws should be aligned with the markings shown in `support plate.svg` and the cables should be facing upward.
+
 5. Repeat with other wheel.
 6. Insert rolled-up toilet paper core through hole in the supporting board. Ensure that the toilet paper core is six or seven milimeters above the ground. Fasten the toilet paper core with the glue gun
 
