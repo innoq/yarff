@@ -18,6 +18,8 @@ Please feel free open an issue or pull request if you would have to improve this
 
 ![Building blocks](./images/building-blocks.jpg "Building blocks")
 
+## Core components
+
 - 1x 14,5cm x 5,2cm support plate (see [`support-plate.svg`](./images/support-plate.svg))
 - 1x Arduino nano
 - 1x Breadboard
@@ -27,6 +29,8 @@ Please feel free open an issue or pull request if you would have to improve this
 - 2x Step motor controller
 - 4x Screws (5cm)
 - 2x 25mm ⌀ Rubber wheel (e.g. [this one](https://www.pollin.de/p/rad-aus-weich-pvc-820437))
+
+## Cables
 
 - 2x Red male to male jumper cable
 - 1x Orange male to male jumper cable
@@ -42,13 +46,15 @@ Please feel free open an issue or pull request if you would have to improve this
 - 1x Yellow male to female jumper cable
 - 2x White male to female jumper cable
 - 2x Black male to female jumper cable
-
 - 1x USB cable (USB-A male to USB-mini male)
+
+## Common household items / tools
 
 - 1x Coloured brush pen
 - 1x Sawing thread, about 2,5 times the length of the pen
 - 1x Toilet paper core rolled together with an outer diameter of approx 1,5 cm and an inner diameter of the pen you want to use
 - 1x Toilet paper core cut to approximatelly 2cm width
+- Scissors
 - 1x Hot glue gun
 
 ## Cost
