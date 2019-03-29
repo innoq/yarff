@@ -139,10 +139,50 @@ _TODO: This section needs to be improved and carefully worded_
 25. Tie one end of the sawing thread around the tip of the pencil
 26. Tie the other end of the sawing thread to the "one sided proppeler"
 
-# Using Snap4Arduino to program the virtual robot
+# Programming
+
+## Using Snap4Arduino to program the virtual robot
 
 _TODO_
 
-# Connecting Snap4Arduino to the real robot
+- Base project and building blocks
+- Notes for mentors
+
+## Connecting Snap4Arduino to the real robot
 
 _TODO_
+
+- Building blocks related to the connection to the nano board
+- Notes for mentors
+
+## Uploading code to the robot for operation without Snap4Arduino
+
+_TODO_
+
+- Generating code
+- Uploading code to the robot via Arduino IDE
+- Notes for mentors
+
+## Additional blocks
+
+_TODO_
+
+- Alphabet "library"
+
+## Possible activities
+
+- Programm the robot to write your name
+- Programm the robot to draw a spiral
+- Programm the robot to draw a star
+- Programm the robot two draw an envelope with the flap open... without lifting the pen from the paper, crossing any of the lines already drawn or tracing over another line
+- Programm the robot to trace an isometric ("3D") cube
+  ```
+     ___________
+    /          /|
+   /__________/ |
+  |          |  |
+  |          |  |
+  |          |  |
+  |          | /
+  |__________|/
+  ```
