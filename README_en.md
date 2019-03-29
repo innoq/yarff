@@ -151,6 +151,27 @@ _TODO: This section needs to be improved and carefully worded_
 
 # Programming
 
+A nice exerise to do after building the robot and programming is to play "dumb robot".
+
+## The "dumb robot" exercise
+
+The mentor can explain that programming is basically telling the computer (or in our case the robot) exactly what it has to do, step by step. The mentor can introduce themselves as a "dumb robot" and stand next to a whiteboard (flip chart or similar) and hover a pen above the surface.
+
+The participants should now be asked to choose a shape or maybe ask them to write the "robot's" initials on the board. Also tell them that you, the "dumb robot", only understand the following commands:
+
+- Set pen down
+- Lift pen up
+- Move formard so many steps
+- Move backwards so many steps
+- Turn right so many degrees
+- Turn left so many degrees
+
+(Of course these happen to be broadly the same commands we will use when programming the robot)
+
+At the end of the exercise the mentor may again emphasize the similarities of the process that just took place (the group reasoning what to do, discussing what the robot should do, maybe someone provided already "optimized" paths, etc.) with the every day tasks of a software developer.
+
+After this exercise you can move to working at the computer.
+
 ## Using Snap4Arduino to program the virtual robot
 
 _TODO_
