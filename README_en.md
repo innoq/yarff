@@ -4,7 +4,9 @@ One more robot project for workshops aimed at people willing to learn about prog
 
 ![Building blocks](./images/robot.jpg "Robot")
 
-This repository aims to be a step by step guide for a workshop in which participants build a robot that traces what they tell it to. Originally this workshop was meant for kids 11 through 15, but anyone is welcome to enjoy some tinkering and an introduction to programming.
+This repository aims to be a step by step guide for a workshop in which participants build a robot that traces what they tell it to. The robot can move forwards and backwards, turn around lift it's pen up or set it down.
+
+Originally this workshop was meant for kids 11 through 15, but anyone is welcome to enjoy some tinkering and an introduction to programming.
 
 We felt like commercial solutions, although of high quality, were not accessible for everyone (due to their price tag). Besides the lower cost, the upside of this project is the additional "sense of pride and accomplishment" that a participant will experience after seeing how something they built themselves comes to life.
 
