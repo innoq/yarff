@@ -112,7 +112,7 @@ This process takes about an hour. Some preparation in advance can help reduce ov
 
 ![Rear support](./images/rear-support.jpg "Rear support")
 
-9. Again with the help of the glue gun paste the controllers of each wheel on the very back of the supporting board.
+9. Again with the help of the glue gun paste the controllers of each wheel on the very back of the supporting board. **Be careful:** the `IN1`, `IN2`, etc pins of the controllers should **not be** right before the arduino board's usb connector. Otherwise we will have trouble connecting the cable later.
 
 ![Controllers](./images/controllers.jpg "Controllers")
 
