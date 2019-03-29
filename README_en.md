@@ -14,8 +14,6 @@ Please feel free open an issue or pull request if you would have to improve this
 
 # Building blocks
 
-Total cost per robot is about 20€.
-
 ![Building blocks](./images/building-blocks.jpg "Building blocks")
 
 - 1x 14,5cm x 5,2cm support plate (see [`support-plate.svg`](./images/support-plate.svg))
@@ -50,6 +48,22 @@ Total cost per robot is about 20€.
 - 1x Toilet paper core rolled together with an outer diameter of approx 1,5 cm and an inner diameter of the pen you want to use
 - 1x Toilet paper core cut to approximatelly 2cm width
 - 1x Hot glue gun
+
+## Cost
+
+The table below shows the cost of a single robot (about 20€ - glue gun and common household materials not taken into consideration), based on prices of regular to small packs of the components needed, as sold by common online retailers.
+
+|                                    | Pack of | Cost (€)  | Cost / unit | Units / robot | Cost / robot |
+|-----------------------------------:|--------:|----------:|------------:|--------------:|-------------:|
+| **Arduino nano compatible chip**   | 5       | 16.99     | 3.40        | 1             | 3.40         |
+| **Breadboard**                     | 3       | 6.99      | 2.33        | 1             | 2.33         |
+| **Servo motor**                    | 3       | 8.99      | 3.00        | 1             | 3.00         |
+| **Step motor with controller**     | 5       | 14.55     | 2.91        | 2             | 5.82         |
+| **Rubber wheel**                   | 1       | 0.60      | 0.60        | 2             | 1.20         |
+| **Jumper cables (male to male)**   | 40      | 3.49      | 0.09        | 5             | 0.44         |
+| **Jumper cables (male to female)** | 195     | 6.99      | 0.04        | 12            | 0.43         |
+| **Total**                          |         |           |             |               | **16.61**    |
+
 
 # Assembly
 
