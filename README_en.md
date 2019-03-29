@@ -99,7 +99,7 @@ This process takes about an hour. Some preparation in advance can help reduce ov
 4. Depending on the kind of supporting board that you are using, assemble wheel with motor and then insert the motor with the wheel into the supporting board **or** insert/screw motor into supporting board and then attach motor to rubber wheel. The screws should be aligned with the markings shown in `support plate.svg` and the cables should be facing upward.
 
 5. Repeat with other wheel.
-6. Insert rolled-up toilet paper core through hole in the supporting board. Ensure that the toilet paper core is six or seven milimeters above the ground. Fasten the toilet paper core with the glue gun
+6. Insert rolled-up toilet paper core through hole in the supporting board. Ensure that the toilet paper core is six or seven milimeters above the ground. Fasten the toilet paper core to the supporting board with the glue gun
 
 ![Toilet paper core](./images/toilet-paper-core.jpg "Toilet paper core")
 
