@@ -163,7 +163,7 @@ _TODO: This section needs to be improved and carefully worded_
 
 # Programming
 
-A nice exerise to do after building the robot and programming is to play "dumb robot".
+A nice exercise to do after building the robot and programming is to play "dumb robot".
 
 ## The "dumb robot" exercise
 
