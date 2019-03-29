@@ -65,6 +65,12 @@ The table below shows the cost of a single robot (about 20€ - glue gun and com
 | **Total**                          |         |           |             |               | **16.61**    |
 
 
+# How the workshop unflods
+
+The workshop is meant to take five to six hours, and is divided in two main parts: *assembling* the robot (about an hour), and *programming* the robot (which could very well take up the rest of the time allotted for the workshop).
+
+Depending on the size of the group, participants may assemble their respective robots and then work on the programming in pairs. Assembling is pretty mechanical, but discussing how to tell the robot what to do is more fun in pairs.
+
 # Assembly
 
 This process takes about an hour. **Please read all the steps before starting!**
