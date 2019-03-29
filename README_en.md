@@ -58,19 +58,19 @@ This process takes about an hour. **Please read all the steps before starting!**
 1. Place breadboard template on breadboard, aligning the end opposite to the arduino board to the edge of the breadboard.
 2. Insert arduino board carefully following template. Ensure that D-Pins (five through seven) align with the print on the template. Set breadboard aside.
 
-![Rear support](./images/nano-and-template.jpg "Nano and template")
+![Nano and template](./images/nano-and-template.jpg "Nano and template")
 
 3. Insert screws through stepper motor. Ensure that head of screw is on the same side as the axis for the wheel.
 4. Depending on the kind of supporting board that you are using, assemble wheel with motor and then insert the motor with the wheel into the supporting board **or** insert/screw motor into supporting board and then attack motor to rubber wheel. The screws should be aligned with the markings shown in `support plate.svg` and the cables should be facing upward.
 5. Repeat with other wheel.
 6. Insert rolled-up toilet paper core through hole in the supporting board. Ensure that the toilet paper core is six or seven milimeters above the ground. Fasten the toilet paper core with the glue gun
 
-![Rear support](./images/toilet-paper-core.jpg "Toilet paper core")
+![Toilet paper core](./images/toilet-paper-core.jpg "Toilet paper core")
 
 7. Remove yellow cover underneath the breadboard, revealing an adhesive surface. With the arduino chip facing away from the toilet paper role, fasten the breadboard on top of the supporting board.
 
 
-![Rear support](./images/breadboard-on-support.jpg "Breadboard")
+![Breadboard on support](./images/breadboard-on-support.jpg "Breadboard")
 
 8. With the help of the glue gun fix the 2cm paper roll core to the back of the supporting board. Squeeze the toilet paper roll in such a way that the supporting board is parallel to the ground.
 
@@ -78,31 +78,31 @@ This process takes about an hour. **Please read all the steps before starting!**
 
 9. Again with the help of the glue gun paste the controllers of each wheel on the very back of the supporting board.
 
-![Rear support](./images/controllers.jpg "Controllers")
+![Controllers](./images/controllers.jpg "Controllers")
 
 10. Use the glue gun one more time to fix the servo motor to the front of the support board. Make sure that the motor's axis is more or less on the center of the support board.
 
-![Rear support](./images/servo2.jpg "Servo motor")
+![Servo motor](./images/servo2.jpg "Servo motor")
 
 ## Wiring the step motors
 
 11. Pick up the **blue** male to male jumper cable and one of the **red** ones. Look for the boxes in the template connected by a line and insert the cables according to their colours.
 
-![Rear support](./images/power-cables.jpg "Power cables")
+![Power cables](./images/power-cables.jpg "Power cables")
 
 12. Connect the left motor with the left controller.
 
-![Rear support](./images/controller-connected.jpg "Controller connected")
+![Controller connected](./images/controller-connected.jpg "Controller connected")
 
 13. Take the **brown**, **red**, **orange** and **yellow** female to male cables and insert them following the "Left motor" markings on the template.
 
-![Rear support](./images/left-motor-cables.jpg "Left motor data cables")
+![Left motor data cables](./images/left-motor-cables.jpg "Left motor data cables")
 
 14. Connect the brown cable with the `IN1` pin on the left wheel's controller. Do the same thing with the rest of the cables and their assigned `IN` pins.
 15. With the help of one of the **white** female to male cables, connect the `+12V` pin of the left controller with one of the **white** squares on the template.
 16. With the help of one of the **black** female to male cables, connect the `-5V` pin of the left controller with one of the **black** squares on the template.
 
-![Rear support](./images/breadboard-left-motor-cables-and-power.jpg "Left motor data cables") ![Rear support](./images/left-motor-controller-with-cables.jpg "Left motor data cables")
+![Left motor data cables and power to breadboard](./images/breadboard-left-motor-cables-and-power.jpg "Left motor data cables") ![Left motor controller with cables](./images/left-motor-controller-with-cables.jpg "Left motor data cables")
 
 17. Repeat the process with the right motor, with the corresponding colours on the template.
 
@@ -115,7 +115,7 @@ This process takes about an hour. **Please read all the steps before starting!**
 22. Connect the **black** male to male jumper cable to the **brown** cable of the servo motor.
 23. Insert the other end to the **black** square on the template (next to the other black cables).
 
-![Rear support](./images/servo-cables.jpg "Servo cables")
+![Servo cables](./images/servo-cables.jpg "Servo cables")
 
 ## Tying the pen to the servo motor
 
