@@ -190,7 +190,6 @@ Before we connect the robot to the computer we will practice programming a virtu
 ### Initial set up
 
 1. Download and install [snap4arduino](http://snap4arduino.rocks/).
-2.
 
 ### Base project and snap blocks
 
