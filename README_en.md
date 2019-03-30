@@ -213,11 +213,10 @@ To achieve this, we will download, install and open the [arduino IDE](https://ww
 1. connect the robot to the computer with the USB cable
 2. ensure that `Arduino nano` is selected under `Tools > Board`
 3. depending on the board bought, `Tools > Board` will have to have the value `ATmega328P` or `ATmega328P (Old Bootloader)`. If you have problems when uploading the firmware try changing this value
-4. Under `Tools > Port` select the one that says `/dev/ttyXXXXX` (under MacOs or Linux) or try your luck with different `COMX` ports under Windows
 
   ![Arduino IDE settings](./images/arduino-ide-settings.jpg "Arduino IDE Settings")
 
-
+4. Under `Tools > Port` select the one that says `/dev/ttyXXXXX` (under MacOs or Linux) or try your luck with different `COMX` ports under Windows
 5. Select `File > Examples > Firmata > StandardFirmata`. This will open a new Window
 
   ![Standard firmata](./images/standard-firmata.jpg "Standard firmata")
