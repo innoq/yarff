@@ -186,12 +186,24 @@ After this exercise you can move to working at the computer.
 
 ## Using Snap4Arduino to program the virtual robot
 
-Download and install [snap4arduino](http://snap4arduino.rocks/).
+Before we connect the robot to the computer we will practice programming a virtual version of the robot. The feedback loop is quicker as compared to letting the robot trace on the paper.
+
+### Initial set up
+
+1. Download and install [snap4arduino](http://snap4arduino.rocks/).
+2.
+
+### Base project and snap blocks
 
 _TODO_
 
-- Base project and building blocks
-- Notes for mentors
+- Robot configuration
+- Other blocks
+
+
+### Notes for mentors
+
+_TODO_
 
 ## Connecting Snap4Arduino to the real robot
 
@@ -219,19 +231,39 @@ To achieve this, we will download, install and open the [arduino IDE](https://ww
 
 ![Done uploading](./images/done-uploading.jpg "Done uploading")
 
+## Snap blocks related to the arduino board
 
 _TODO_
 
-- Building blocks related to the connection to the nano board
-- Notes for mentors
+- Configuring the wheel motors
+- Configuring the pen's servo
+
+### Notes for mentors
+
+_TODO_
 
 ## Uploading code to the robot for operation without Snap4Arduino
 
 _TODO_
 
-- Generating code
-- Uploading code to the robot via Arduino IDE
-- Notes for mentors
+### Generating code
+
+_TODO_
+
+- "Generate code" block
+- Save code
+
+### Uploading code to the robot via Arduino IDE
+
+_TODO_
+
+- Open code with arduino ide
+- Upload code
+
+
+### Notes for mentors
+
+_TODO_
 
 ## Additional blocks
 
