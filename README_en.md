@@ -90,55 +90,54 @@ This process takes about an hour. Some preparation in advance can help reduce ov
 1. Place breadboard template on breadboard, aligning the end opposite to the arduino board to the edge of the breadboard.
 2. Insert arduino board carefully following template. Ensure that D-Pins (five through seven) align with the print on the template. Set breadboard aside.
 
-![Nano and template](./images/nano-and-template.jpg "Nano and template")
+    ![Nano and template](./images/nano-and-template.jpg "Nano and template")
 
 3. Insert screws through stepper motor. Ensure that head of screw is on the same side as the axis for the wheel.
 
-![Motor and wheel](./images/motor-wheel.jpg "Motor and wheel")
+    ![Motor and wheel](./images/motor-wheel.jpg "Motor and wheel")
 
 4. Depending on the kind of supporting board that you are using, assemble wheel with motor and then insert the motor with the wheel into the supporting board **or** insert/screw motor into supporting board and then attach motor to rubber wheel. The screws should be aligned with the markings shown in `support plate.svg` and the cables should be facing upward.
 
 5. Repeat with other wheel.
 6. Insert rolled-up toilet paper core through hole in the supporting board. Ensure that the toilet paper core is six or seven milimeters above the ground. Fasten the toilet paper core to the supporting board with the glue gun
 
-![Toilet paper core](./images/toilet-paper-core.jpg "Toilet paper core")
+    ![Toilet paper core](./images/toilet-paper-core.jpg "Toilet paper core")
 
 7. Remove yellow cover underneath the breadboard, revealing an adhesive surface. With the arduino chip facing away from the toilet paper role, fasten the breadboard on top of the supporting board.
 
-
-![Breadboard on support](./images/breadboard-on-support.jpg "Breadboard")
+    ![Breadboard on support](./images/breadboard-on-support.jpg "Breadboard")
 
 8. With the help of the glue gun fix the 2cm paper roll core to the back of the supporting board. Squeeze the toilet paper roll in such a way that the supporting board is parallel to the ground.
 
-![Rear support](./images/rear-support.jpg "Rear support")
+    ![Rear support](./images/rear-support.jpg "Rear support")
 
 9. Again with the help of the glue gun paste the controllers of each wheel on the very back of the supporting board. **Be careful:** the `IN1`, `IN2`, etc pins of the controllers should **not be** right before the arduino board's usb connector. Otherwise we will have trouble connecting the cable later.
 
-![Controllers](./images/controllers.jpg "Controllers")
+    ![Controllers](./images/controllers.jpg "Controllers")
 
 10. Use the glue gun one more time to fix the servo motor to the front of the support board. Make sure that the motor's axis is more or less on the center of the support board.
 
-![Servo motor](./images/servo2.jpg "Servo motor")
+    ![Servo motor](./images/servo2.jpg "Servo motor")
 
 ## Wiring the step motors
 
 11. Pick up the **blue** male to male jumper cable and one of the **red** ones. Look for the boxes in the template connected by a line and insert the cables according to their colours.
 
-![Power cables](./images/power-cables.jpg "Power cables")
+    ![Power cables](./images/power-cables.jpg "Power cables")
 
 12. Connect the left motor with the left controller.
 
-![Controller connected](./images/controller-connected.jpg "Controller connected")
+    ![Controller connected](./images/controller-connected.jpg "Controller connected")
 
 13. Take the **brown**, **red**, **orange** and **yellow** female to male cables and insert them following the "Left motor" markings on the template.
 
-![Left motor data cables](./images/left-motor-cables.jpg "Left motor data cables")
+    ![Left motor data cables](./images/left-motor-cables.jpg "Left motor data cables")
 
 14. Connect the brown cable with the `IN1` pin on the left wheel's controller. Do the same thing with the rest of the cables and their assigned `IN` pins.
 15. With the help of one of the **white** female to male cables, connect the `+12V` pin of the left controller with one of the **white** squares on the template.
 16. With the help of one of the **black** female to male cables, connect the `-5V` pin of the left controller with one of the **black** squares on the template.
 
-![Left motor data cables and power to breadboard](./images/breadboard-left-motor-cables-and-power.jpg "Left motor data cables") ![Left motor controller with cables](./images/left-motor-controller-with-cables.jpg "Left motor data cables")
+    ![Left motor data cables and power to breadboard](./images/breadboard-left-motor-cables-and-power.jpg "Left motor data cables") ![Left motor controller with cables](./images/left-motor-controller-with-cables.jpg "Left motor data cables")
 
 17. Repeat the process with the right motor, with the corresponding colours on the template.
 
@@ -151,7 +150,7 @@ This process takes about an hour. Some preparation in advance can help reduce ov
 22. Connect the **black** male to male jumper cable to the **brown** cable of the servo motor.
 23. Insert the other end to the **black** square on the template (next to the other black cables).
 
-![Servo cables](./images/servo-cables.jpg "Servo cables")
+    ![Servo cables](./images/servo-cables.jpg "Servo cables")
 
 ## Tying the pen to the servo motor
 
@@ -216,20 +215,18 @@ To achieve this, we will download, install and open the [arduino IDE](https://ww
 3. depending on the board bought, `Tools > Board` will have to have the value `ATmega328P` or `ATmega328P (Old Bootloader)`. If you have problems when uploading the firmware try changing this value
 4. Under `Tools > Port` select the one that says `/dev/ttyXXXXX` (under MacOs or Linux) or try your luck with different `COMX` ports under Windows
 
-![Arduino IDE settings](./images/arduino-ide-settings.jpg "Arduino IDE Settings")
+  ![Arduino IDE settings](./images/arduino-ide-settings.jpg "Arduino IDE Settings")
 
 
 5. Select `File > Examples > Firmata > StandardFirmata`. This will open a new Window
 
-![Standard firmata](./images/standard-firmata.jpg "Standard firmata")
+  ![Standard firmata](./images/standard-firmata.jpg "Standard firmata")
 
-6. Press the upload button (the right facing arrow on the toolbar)
-
-![Upload button](./images/upload-button.png "Upload button")
+6. Press the upload button (the right facing arrow on the toolbar ![Upload button](./images/upload-button.png "Upload button") )
 
 7. Once the window says `Done uploading` you can close the Arduino IDE
 
-![Done uploading](./images/done-uploading.jpg "Done uploading")
+  ![Done uploading](./images/done-uploading.jpg "Done uploading")
 
 ## Snap blocks related to the arduino board
 
