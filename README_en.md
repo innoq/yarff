@@ -198,7 +198,6 @@ _TODO_
 - Robot configuration
 - Other blocks
 
-
 ### Notes for mentors
 
 _TODO_
