@@ -271,14 +271,4 @@ _TODO_
 - Programm the robot to draw a spiral
 - Programm the robot to draw a star
 - Programm the robot two draw an envelope with the flap open... without lifting the pen from the paper, crossing any of the lines already drawn or tracing over another line
-- Programm the robot to trace an isometric ("3D") cube
-  ```
-     ___________
-    /          /|
-   /__________/ |
-  |          |  |
-  |          |  |
-  |          |  |
-  |          | /
-  |__________|/
-  ```
+- Programm the robot to trace an [isometric cube](https://duckduckgo.com/?q=isometric+cube&t=canonical&iar=images&iaf=color%3Acolor2-bw%2Csize%3Aimagesize-medium%2Ctype%3Aphoto-clipart&iax=images&ia=images)
