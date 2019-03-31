@@ -267,13 +267,13 @@ _TODO_
 
 ## Possible activities
 
-- Programm the robot to write your name
-- Programm the robot to draw a spiral
-- Programm the robot to draw a star
-- Programm the robot two draw an envelope with the flap open... without lifting the pen from the paper, crossing any of the lines already drawn or tracing over another line
+- Program the robot to write your name
+- Program the robot to draw a spiral
+- Program the robot to draw a star
+- Program the robot two draw an envelope with the flap open... without lifting the pen from the paper, crossing any of the lines already drawn or tracing over another line
 
     ![Envelope](./images/envelope.gif "Envelope")
 
-- Programm the robot to trace an isometric cube
+- Program the robot to trace an isometric cube
 
     ![Isometric cube](./images/isometric-cube.gif "Isometric cube")
