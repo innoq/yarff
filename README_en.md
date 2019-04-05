@@ -154,7 +154,9 @@ This process takes about an hour. Some preparation in advance can help reduce ov
 
 ## Tying the pen to the servo motor
 
-_TODO: This section needs to be improved and carefully worded_
+```
+⚠ TODO: This section needs to be improved and carefully worded
+```
 
 24. Insert the "one sided proppeler" into the servo's axis
 25. Tie one end of the sawing thread around the tip of the pencil
@@ -231,7 +233,9 @@ In the `Pen` blocks category you can find a `clear` block. You can click this bl
 
 ### Notes for mentors
 
-_TODO_
+```
+⚠ TODO
+```
 
 ## Connecting Snap4Arduino to the real robot
 
@@ -258,29 +262,39 @@ To achieve this, we will download, install and open the [arduino IDE](https://ww
 
 ## Snap blocks related to the arduino board
 
-_TODO_
+```
+⚠ TODO
+```
 
 - Configuring the wheel motors
 - Configuring the pen's servo
 
 ### Notes for mentors
 
-_TODO_
+```
+⚠ TODO
+```
 
 ## Uploading code to the robot for operation without Snap4Arduino
 
-_TODO_
+```
+⚠ TODO
+```
 
 ### Generating code
 
-_TODO_
+```
+⚠ TODO
+```
 
 - "Generate code" block
 - Save code
 
 ### Uploading code to the robot via Arduino IDE
 
-_TODO_
+```
+⚠ TODO
+```
 
 - Open code with arduino ide
 - Upload code
@@ -288,11 +302,15 @@ _TODO_
 
 ### Notes for mentors
 
-_TODO_
+```
+⚠ TODO
+```
 
 ## Additional blocks
 
-_TODO_
+```
+⚠ TODO
+```
 
 - Alphabet "library"
 
