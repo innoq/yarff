@@ -193,10 +193,41 @@ Before we connect the robot to the computer we will practice programming a virtu
 
 ### Base project and snap blocks
 
-_TODO_
+Open snap4arduino and select the menu button with a sheet of paper on it.
 
-- Robot configuration
-- Other blocks
+![Open project](./images/en/open-project.png "Open project")
+
+After that click on `Import` and select the file `1 - standard project.xml`. This (among other things) will import some blocks that we can use to interact with the "virtual" robot (usually shown on the upper right quarter of the screen, on white background). The new blocks can be found in the block list, after you select the `Arduino` block category on the upper left of your screen.
+
+In the following steps we will practice with the virtual robot before connecting to the real one.
+
+#### Robot configuration block
+
+```
+⚠ TODO Add screenshots
+```
+
+If you scroll through the list of available blocks, you will find the `Configure robot` block.
+This block contains some basic properties of the robot, for instance how fast does it move and turn, or how long is a "step" in any direction.
+
+We will always need to use this block in order to interact with the robot, so go ahead and drag and drop this block into the main area.
+
+#### Movement  blocks
+
+Further blocks that you will find under the `Arduino` block category are:
+
+- `move __ steps forwards`
+- `move __ steps backwards`
+- `turn __ degrees left`
+- `turn __ degrees right`
+- `lift pen up`
+- `set pen down`
+
+You can drag and drop blocks to the bottom of the `Configure robot` block. You can press on `Configure robot` and the virtual robot will do whatever you tell it to.
+
+Play around with these blocks: try moving around, lifting up the pen and setting it down, and so on.
+
+In the `Pen` blocks category you can find a `clear` block. You can click this block to clean up the lines drawn by the robot.
 
 ### Notes for mentors
 
