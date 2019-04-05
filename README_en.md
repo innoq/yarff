@@ -32,20 +32,20 @@ Please feel free open an issue or pull request if you would have to improve this
 
 ## Cables
 
-- 2x Red male to male jumper cable
-- 1x Orange male to male jumper cable
-- 1x Black male to male jumper cable
-- 1x Blue male to male jumper cable
-- 1x Gray male to female jumper cable
-- 1x Purple male to female jumper cable
-- 1x Blue male to female jumper cable
-- 1x Green male to female jumper cable
-- 1x Brown male to female jumper cable
-- 1x Red male to female jumper cable
-- 1x Orange male to female jumper cable
-- 1x Yellow male to female jumper cable
-- 2x White male to female jumper cable
-- 2x Black male to female jumper cable
+- 2x Red plug-plug jumper cable
+- 1x Orange plug-plug jumper cable
+- 1x Black plug-plug jumper cable
+- 1x Blue plug-plug jumper cable
+- 1x Gray plug-socket jumper cable
+- 1x Purple plug-socket jumper cable
+- 1x Blue plug-socket jumper cable
+- 1x Green plug-socket jumper cable
+- 1x Brown plug-socket jumper cable
+- 1x Red plug-socket jumper cable
+- 1x Orange plug-socket jumper cable
+- 1x Yellow plug-socket jumper cable
+- 2x White plug-socket jumper cable
+- 2x Black plug-socket jumper cable
 - 1x USB cable (USB-A male to USB-mini male)
 
 ## Common household items / tools
@@ -68,8 +68,8 @@ The table below shows the cost of a single robot (about 20€ - glue gun and com
 | **Servo motor**                    | 3       | 8.99      | 3.00        | 1             | 3.00         |
 | **Step motor with controller**     | 5       | 14.55     | 2.91        | 2             | 5.82         |
 | **Rubber wheel**                   | 1       | 0.60      | 0.60        | 2             | 1.20         |
-| **Jumper cables (male to male)**   | 40      | 3.49      | 0.09        | 5             | 0.44         |
-| **Jumper cables (male to female)** | 195     | 6.99      | 0.04        | 12            | 0.43         |
+| **Jumper cables (plug-plug)**      | 40      | 3.49      | 0.09        | 5             | 0.44         |
+| **Jumper cables (plug-socket)**    | 195     | 6.99      | 0.04        | 12            | 0.43         |
 | **Total**                          |         |           |             |               | **16.61**    |
 
 
@@ -121,7 +121,7 @@ This process takes about an hour. Some preparation in advance can help reduce ov
 
 ## Wiring the step motors
 
-11. Pick up the **blue** male to male jumper cable and one of the **red** ones. Look for the boxes in the template connected by a line and insert the cables according to their colours.
+11. Pick up the **blue** plug-plug jumper cable and one of the **red** ones. Look for the boxes in the template connected by a line and insert the cables according to their colours.
 
     ![Power cables](./images/power-cables.jpg "Power cables")
 
@@ -129,13 +129,13 @@ This process takes about an hour. Some preparation in advance can help reduce ov
 
     ![Controller connected](./images/controller-connected.jpg "Controller connected")
 
-13. Take the **brown**, **red**, **orange** and **yellow** female to male cables and insert them following the "Left motor" markings on the template.
+13. Take the **brown**, **red**, **orange** and **yellow** plug-socket cables and insert them following the "Left motor" markings on the template.
 
     ![Left motor data cables](./images/left-motor-cables.jpg "Left motor data cables")
 
 14. Connect the brown cable with the `IN1` pin on the left wheel's controller. Do the same thing with the rest of the cables and their assigned `IN` pins.
-15. With the help of one of the **white** female to male cables, connect the `+12V` pin of the left controller with one of the **white** squares on the template.
-16. With the help of one of the **black** female to male cables, connect the `-5V` pin of the left controller with one of the **black** squares on the template.
+15. With the help of one of the **white** plug-socket cables, connect the `+12V` pin of the left controller with one of the **white** squares on the template.
+16. With the help of one of the **black** plug-socket cables, connect the `-5V` pin of the left controller with one of the **black** squares on the template.
 
     ![Left motor data cables and power to breadboard](./images/breadboard-left-motor-cables-and-power.jpg "Left motor data cables") ![Left motor controller with cables](./images/left-motor-controller-with-cables.jpg "Left motor data cables")
 
@@ -143,11 +143,11 @@ This process takes about an hour. Some preparation in advance can help reduce ov
 
 ## Wiring the servo motor
 
-18. Connect one end of the **orange** male to male jumper cable to the **orange** cable of the servo motor.
+18. Connect one end of the **orange** plug-plug jumper cable to the **orange** cable of the servo motor.
 19. Insert the other end to the **orange** square on the template (next to the left motor cables).
-20. Connect one end of the **red** male to male jumper cable to the **red** cable of the servo motor.
+20. Connect one end of the **red** plug-plug jumper cable to the **red** cable of the servo motor.
 21. Insert the other end to the **red** square on the template (next to the white cables).
-22. Connect the **black** male to male jumper cable to the **brown** cable of the servo motor.
+22. Connect the **black** plug-plug jumper cable to the **brown** cable of the servo motor.
 23. Insert the other end to the **black** square on the template (next to the other black cables).
 
     ![Servo cables](./images/servo-cables.jpg "Servo cables")
