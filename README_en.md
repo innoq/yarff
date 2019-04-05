@@ -197,7 +197,7 @@ Before we connect the robot to the computer we will practice programming a virtu
 
 Open snap4arduino and select the menu button with a sheet of paper on it.
 
-![Open project](./images/en/open-project.png "Open project")
+![Open project](./images/en/import.png "Open project")
 
 After that click on `Import` and select the file `1 - standard project.xml`. This (among other things) will import some blocks that we can use to interact with the "virtual" robot (usually shown on the upper right quarter of the screen, on white background). The new blocks can be found in the block list, after you select the `Arduino` block category on the upper left of your screen.
 
@@ -263,11 +263,50 @@ To achieve this, we will download, install and open the [arduino IDE](https://ww
 ## Snap blocks related to the arduino board
 
 ```
-⚠ TODO
+⚠ TODO Add screenshots
 ```
 
-- Configuring the wheel motors
-- Configuring the pen's servo
+Go back to snap4arduino and select the menu button with a sheet of paper on it.
+
+![Open project](./images/en/import.png "Open project")
+
+After that click on `Import` and select the file `2 - robot connection blocks.xml`. This will import some blocks that we can use to interact with the real robot. The new blocks can be found in the block list, after you select the `Arduino` block category on the upper left of your screen.
+
+In order to send commands to the robot we need to tell snap how to _talk_ to the robot.
+
+### Configuring the wheel motors
+
+```
+⚠ TODO Add screenshots
+```
+
+Look for the `left motor uses sockets D _ D _ D _ D _` block under the `Arduino` category and drag and drop it somewhere into the main area.
+
+Have a look at the breadboard template: you will see that the cables related to the left motor are inserted into sockets with the name `D`-and-some-number. Enter the `D` number of each cable into the `left motor uses sockets D _ D _ D _ D _` block, in ascending order.
+
+Look for the `right motor uses sockets A _ A _ A _ A _` block under the `Arduino` category and drag and drop it into the main area, **snapping it under the `left motor uses sockets D _ D _ D _ D _` block**.
+
+Have a look at the breadboard template: you will see that the cables related to the right motor are inserted into sockets with the name `A`-and-some-number. Enter the `A` number of each cable into the `right motor uses sockets A _ A _ A _ A _` block, in ascending order.
+
+### Configuring the pen's servo
+
+```
+⚠ TODO Add screenshots
+```
+
+Look for the `pen lifter uses socket D _` block under the `Arduino` category and drag and drop it into the main area, **snapping it under the `right motor uses sockets A _ A _ A _ A _` block**.
+
+Have a look at the breadboard template: you will see that the cable related to pen's servo is inserted into a socket with the name `D`-and-some-number. Enter the `D` number of each cable into the `pen lifter uses socket D _` block.
+
+### The "main program" block
+
+```
+⚠ TODO Add screenshots
+```
+
+Once the motors and the pen's servo are set up, we can drag and drop the `main program` block into the main area, **snapping it under the `pen lifter uses socket D _` block**.
+
+Now we can snap the chain of blocks that we created starting with `Configure robot` **into** the `main program` block. By doing this snap4arduino knows that these blocks are meant to be sent to the robot to be executed.
 
 ### Notes for mentors
 
